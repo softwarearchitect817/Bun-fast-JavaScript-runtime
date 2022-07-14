@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "module": "esnext",
+    "target": "esnext",
+    "noEmit": true,
+    "allowJs": true,
+    "typeRoots": ["../../types"],
+    "types": ["bun"],
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "foo/bar": ["baz.js"]
+    }
+  }
+}
